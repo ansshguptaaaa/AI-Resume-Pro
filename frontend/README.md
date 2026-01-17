@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+🚀 AI Resume Pro: Next-Gen ATS Intelligence System
+AI Resume Pro ek enterprise-grade full-stack application hai jo job seekers ko unke resumes analyze karne aur ATS (Applicant Tracking System) ko beat karne mein madad karti hai. Is project mein security, performance aur AI ka ek behtareen balance implement kiya gaya hai.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠️ Technology-Wise Elaboration
+Har ek technology ko project ke context mein niche elaborate kiya gaya hai:
 
-## Available Scripts
+🌐 Frontend (The Interface)
+React.js: Application ka core structure React par based hai, jo dynamic state management aur component-based architecture (Login, History, Analysis) provide karta hai.
 
-In the project directory, you can run:
+Tailwind CSS: Poori application ko ek sleek, modern aur responsive dark-themed UI dene ke liye Tailwind ka use kiya gaya hai.
 
-### `npm start`
+Recharts: AI se prapt ATS Score ko visually represent karne ke liye interactive Pie Charts aur gauges ka use kiya gaya hai.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Lucide React: Dashboard ko intuitive banane ke liye modern aur clean icons ka use kiya gaya hai.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚙️ Backend (The Engine)
+Node.js & Express: Ek scalable RESTful API architecture design kiya gaya hai jo authentication aur analysis ki requests ko handle karta hai.
 
-### `npm test`
+JWT (JSON Web Tokens): User session ko secure aur stateless banane ke liye JWT ka use kiya gaya hai, jo har request par user identity verify karta hai.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bcrypt.js: Database mein passwords ko save karne se pehle 10-round hashing algorithm ka use karke security ensure ki gayi hai.
 
-### `npm run build`
+Multer: Users dwara upload ki gayi PDF files ko memory buffer mein process karne ke liye is middleware ka use kiya gaya hai.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧠 Artificial Intelligence & Performance
+Groq (Llama 3.3 70B): Dunia ke fastest inference engine ka use karke resume aur JD ka deep semantic analysis kiya jata hai taaki structured JSON data mil sake.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Redis Cloud: Performance boost karne ke liye Caching layer add ki gayi hai. Same request aane par AI ko call karne ke bajaye Redis memory se data serve hota hai (Latency -80%).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+pdf2json: Binary PDF data ko raw text mein stream karke AI model ke liye context taiyar kiya jata hai.
 
-### `npm run eject`
+🗄️ Database & Storage
+MongoDB Atlas: User profiles aur analysis history ko securely store karne ke liye Mongoose ODM ke saath use kiya gaya hai.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚦 Features & Functionality
+Secure Auth: JWT based Login/Signup functionality.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ATS Score Visualization: Real-time match percentage through charts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Skill Gap Analysis: Identification of missing keywords and skills.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Interview Prep: Tailored interview questions based on Job Description.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Personal History: Capability to view and delete previous analysis records.re: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
